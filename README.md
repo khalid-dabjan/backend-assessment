@@ -1,6 +1,10 @@
 # TicketSwap assessment
-Oops! You and your team were asked to implement a new marketplace system for selling and buying tickets. Your colleague already started working on a proof of concept, but had to leave before finishing it! 
-Now it is up to you to finish what was started.
+Your assignment is to implement a new marketplace system for selling and buying tickets. Some tests are already written and there is a basic implementation for you to finish. Even though it is not real code, please treat it as if it would be deployed to thousands of users.
+
+There are some concrete classes for implementation and there are some unit tests. Your job is to:
+- make sure all the business logic above is implemented and test
+  - make sure all the tests pass
+  - there are skipped tests, you need to implement the missing functionality
 
 The business rules are as follows:
 - A listing contains multiple tickets. 
@@ -12,15 +16,11 @@ The business rules are as follows:
 - It should not be possible to create a listing with duplicate barcodes within another listing.
 - Though, it should be possible for the last buyer of a ticket, to create a listing with that ticket (based on barcode).
 
-There are some concrete classes for implementation and there are some unit tests. Your job is to:
-- make sure all the business logic above is implemented and test
-  - make sure all the tests pass
-  - there are skipped tests, you need to implement the missing functionality
-- **bonus** we know some sellers have nefarious plans and try to scam buyers. To prevent that, we want to only sell listings that have been verified by an admin. Make the implementation and the accompanying unit tests for this.
+You are free, encouraged even, to rewrite those parts in the implementation, tests or overal design that you think are in need of it. You are also free to add any library that you think you need. We do however ask that you don't use a database to make the business rules work.
+If you have any questions you can always [contact us][contact].
 
-Because your colleague suddenly left, not everything that is already there might be so nice, or even conform to the business rules. You are free, encouraged even, to rewrite those parts in the implementation, tests or overal design that you think are in need of it. You are also free to add any library that you think you need. We do however ask that you don't use a database to make the business rules work.
-
- If you have any questions you can always [contact us][contact].
+### Bonus
+We know some sellers have nefarious plans and try to scam buyers. To prevent that, we want to only sell listings that have been verified by an admin. Make the implementation, and the accompanying unit tests, to be able to verify listings and only buy tickets from verified listings.
 
 ## Setup
 First of all, it is assumed that you can run PHP (7.2+) and composer locally.
