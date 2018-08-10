@@ -2,9 +2,9 @@
 Your assignment is to implement a new marketplace system for selling and buying tickets. Some tests are already written and there is a basic implementation for you to finish. Even though it is not real code, please treat it as if it would be deployed to thousands of users.
 
 There are some concrete classes for implementation and there are some unit tests. Your job is to:
-- make sure all the business logic above is implemented and test
-  - make sure all the tests pass
-  - there are skipped tests, you need to implement the missing functionality
+- make sure all the business logic above is implemented and tested
+- make sure all the tests pass
+- implement the missing functionality in the skipped tests
 
 The business rules are as follows:
 - A listing contains multiple tickets. 
